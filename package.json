@@ -1,0 +1,24 @@
+{
+  "name": "tmux-balance-pane-size",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "sititou70",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "vitest run src"
+  },
+  "engines": {
+    "node": "22.17.1",
+    "npm": "10.9.2"
+  },
+  "dependencies": {
+    "@types/node": "24.0.15",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "vitest": "3.2.4"
+  }
+}
